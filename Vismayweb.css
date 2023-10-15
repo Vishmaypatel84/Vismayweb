@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+}
+hr{
+    border-color: black;
+    margin: 20px 100px;
+}
+#Home{
+    width: 99vw;
+    height: 100vh;
+    /* background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%); */
+}
+nav {
+    display: flex;
+}
+
+.navbar {
+    margin: auto;
+    margin-top: 20px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    font-size: 19px;
+    font-family: "Elianto Regular";
+    /* margin-right: 12px; */
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+.name-photo{
+    justify-content: center;
+    align-items: center;
+    height: 12rem;
+    /* width: 80%; */
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 10rem;
+}
+.name-photo p {
+    font-size: 30px;
+}
+.name{
+    margin: auto;
+}
+.type-animation{
+    display: flex;
+    /* margin: 80px 20rem; */
+    font-size: 50px;
+    /* border: 2px solid rebeccapurple; */
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 7rem;
+    width: auto;
+}
+#About{
+    width: 100%;
+    height: 100%;
+    /* background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); */
+}
+.About h1 {
+    text-align: center;
+    margin: 50px;
+}
+.text p {
+    margin: 100px;
+    /* border: 1px solid black; */
+    padding: 12px;
+    border-radius: 15px;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+#Email{
+    width: 100%;
+    height: 100vh;
+    display: block;
+    /* border: 2px solid cadetblue; */
+}
+.Contect{
+    margin: 50px;
+    padding: 6px;
+    text-align: center;
+    /* margin-top: 15rem; */
+    font-size: 30px;
+}
+.socialmedia{
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    margin: 100px 0px;
+    justify-content: center;
+}
+.instagram,.twitter,.linkedin,.facebook{
+    margin: 6px;
+    height: 100px;
+}
+.social-name p {
+    text-align: center;
+    font-size: bold;
+}
+
+.instagram svg,.twitter svg,.linkedin svg,.facebook svg{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+@media (max-width:426px) and (min-width:0px) {
+    
+    .type-animation{
+        font-size: 27px;
+    }
+    .socialmedia{
+        font-size: 15px;
+    }
+    .Contect{
+        font-size: 25px;
+    }
+    .text p{
+        padding: 12px;
+        margin: 30px;
+    }
+    hr{
+        margin: 20px 50px;
+    }
+}
+@media (max-width:770px) and (min-width:426px){
+    .type-animation{
+        font-size: 45px;
+    }
+    hr{
+        margin: 20px 60px;
+    }
+    
+}
